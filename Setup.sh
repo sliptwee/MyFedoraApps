@@ -73,7 +73,7 @@ clear
 echo "// Copying Custom Configurations"
 echo
 
-sudo rsync -a "$(realpath "$0")"/Files/ ~/
+sudo rsync -a $(dirname "$(readlink -f "$0")")/Files/ ~/
 
 clear
 echo "// Done!"
