@@ -35,7 +35,7 @@ clear
 echo "// Installing Flatpaks"
 echo
 
-flatpak install -y flathub com.obsproject.Studio dev.vencord.Vesktop com.spotify.Client com.dec05eba.gpu_screen_recorder md.obsidian.Obsidian org.telegram.desktop com.rafaelmardojai.Blanket com.mattjakeman.ExtensionManager org.localsend.localsend_app com.valvesoftware.Steam no.mifi.losslesscut io.github.ungoogled_software.ungoogled_chromium com.github.tchx84.Flatseal org.vinegarhq.Sober com.infinipaint.infinipaint app.zen_browser.zen ca.desrt.dconf-editor io.github.josephmawa.Bella org.prismlauncher.PrismLauncher org.kde.krita
+flatpak install -y flathub io.github.diegopvlk.Cine com.obsproject.Studio dev.vencord.Vesktop com.spotify.Client com.dec05eba.gpu_screen_recorder md.obsidian.Obsidian org.telegram.desktop com.rafaelmardojai.Blanket com.mattjakeman.ExtensionManager org.localsend.localsend_app com.valvesoftware.Steam no.mifi.losslesscut io.github.ungoogled_software.ungoogled_chromium com.github.tchx84.Flatseal org.vinegarhq.Sober com.infinipaint.infinipaint app.zen_browser.zen ca.desrt.dconf-editor io.github.josephmawa.Bella org.prismlauncher.PrismLauncher org.kde.krita
 
 clear
 echo "// Creating Default Config Files"
